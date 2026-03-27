@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Root direktori
+    "paths": {
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@components/*": [
+        "pages/components/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@media/*": [
+        "media/*"
+      ]
+    }
+  }
+}
